@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E303" />
+          <option value="W292" />
+          <option value="E225" />
+          <option value="E117" />
+          <option value="E265" />
+          <option value="E211" />
+          <option value="W391" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="self.log" />
+          <option value="helpers.profile_page.ProfileHelpers.wait_for_text" />
+          <option value="helpers.base.wait_until_ok" />
+          <option value="helpers.login_page.LoginHelpers.wait_and_click" />
+          <option value="helpers.login_page.LoginHelpers.is_element_exists" />
+          <option value="helpers.login_page.LoginHelpers.driver" />
+          <option value="helpers.login_page.LoginHelpers.is_text_exists" />
+          <option value="helpers.base.BaseHelpers.wait_and_click" />
+          <option value="helpers.login_page.LoginHelpers.log" />
+          <option value="test_login_page.base_helper" />
+          <option value="helpers.login_page.LoginHelpers.register_user" />
+          <option value="object.click" />
+          <option value="object.*" />
+          <option value="helpers.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
