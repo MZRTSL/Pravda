@@ -13,7 +13,7 @@ class NewsPage(BaseHelper):
 
     def find_and_compare(self):
         """Find tittle name in article and column name by.X method and compare them"""
-        tittle_name=self.driver.wait_until_element_find (self.constants.TITTLE_NAME_XPATH)
-        column_tittle=self.driver.wait_until_element_find (self.constants.COLUMN_ELEMENT_NEWS_XPATH)
+        tittle_name=self.driver.find_element_by_xpath(self.constants.TITTLE_NAME_XPATH)
+        column_tittle=self.driver.find_element_by_xpath(self.constants.COLUMN_ELEMENT_NEWS_XPATH)
         assert tittle_name.text == column_tittle.text
         self.log.info ("Find and compare both title`s texts")

@@ -4,6 +4,7 @@ from constants.article_page import ArticlesConstants
 from constants.start_page import StartPageConstants
 from helpers.base import BaseHelper
 
+# need to add properties
 
 class StartPage(BaseHelper):
     """Store helpers methods related to start page actions"""

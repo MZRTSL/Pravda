@@ -5,6 +5,7 @@ import pytest
 
 from constants.base import BaseConstants
 from selenium import webdriver
+from page.start_page import StartPage
 
 
 def pytest_runtest_setup(item):
@@ -27,4 +28,6 @@ def driver():
 @pytest.fixture (scope='function')
 def start_page(driver):
     driver.get (BaseConstants.START_PAGE_URL)
-    return
+    return StartPage(driver)
+
+# StartPage return - check

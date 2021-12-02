@@ -13,10 +13,10 @@ class StartPage(BaseHelper):
 
     def accept_cookies(self):
         """Helper for accept cookies"""
-        self.driver.wait_and_click(self.constants.COOKIES_BUTTON_XPATH)
+        self.driver.find_element_by_xpath(self.constants.COOKIES_BUTTON_XPATH)
         self.log.info ("Accept cookies")
 
     def news_columns(self):
         """Find columns element text and click"""
-        self.driver.wait_and_click (self.constants.COLUMN_ELEMENT_XPATH)
+        self.driver.find_element_by_xpath(self.constants.COLUMN_ELEMENT_XPATH)
         self.log.info ("Find article in news columns")
